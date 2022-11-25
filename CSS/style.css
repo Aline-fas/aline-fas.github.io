@@ -225,7 +225,8 @@ width: 50px;
 
 .contato{
     padding: 10px;
-    background-image: url(/img/photo-1553095066-5014bc7b7f2d.jfif);
+    background-color: black;
+    /* background-image: url(/img/photo-1553095066-5014bc7b7f2d.jfif); */
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
