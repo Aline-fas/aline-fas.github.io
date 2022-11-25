@@ -12,6 +12,15 @@ body {
     background-attachment: fixed;
 }
 
+.material-symbols-outlined {
+    width: 15px;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 100,
+  'GRAD' 0,
+  'opsz' 48
+}
+
 .user-box{
     top: 50%;
     left: 50%;
@@ -93,6 +102,11 @@ body {
     font-weight: 600;
 }
 
+.devIco{
+/* font-size: larger; */
+width: 50px;
+}
+
 .progress{
     border-radius: 16px;
     margin-bottom: 10px;  
@@ -110,6 +124,7 @@ body {
 
 .texto-sobremim{
     text-align: justify;
+    /* font-family: 'Playfair Display', cursive; */
 }
 
 .resume{
@@ -213,14 +228,14 @@ body {
 }
 
 .contato{
-    padding-top: 50px;
+    padding: 10px;
     background-image: url(/img/photo-1553095066-5014bc7b7f2d.jfif);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
     background-color: black;
-    padding-bottom: 50px;
+    /* padding-bottom: 10px; */
 }
 
 .link-redes{
@@ -233,17 +248,17 @@ body {
 }
 
 .contato .row{
-    padding: 30px 0;
+    /* padding: 30px 0; */
     font-size: 22px;
 }
 
 .contato .col-md-4 .fa{
-    padding: 10px;
+    /* padding: 10px; */
     font-size: 40px;
 }
 
 .contato .btn{
-    padding: 10px 25px 10px 25px;
+    padding: 10px 10px 1px 10px;
     margin: 5px;
     border-radius: 30px;
     border: 2px solid #fff;
