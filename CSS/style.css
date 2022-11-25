@@ -13,12 +13,7 @@ body {
 }
 
 .material-symbols-outlined {
-    width: 15px;
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 100,
-  'GRAD' 0,
-  'opsz' 48
+    color: white;
 }
 
 .user-box{
@@ -124,7 +119,8 @@ width: 50px;
 
 .texto-sobremim{
     text-align: justify;
-    /* font-family: 'Playfair Display', cursive; */
+    font-family: 'Roboto';
+    font-size: 1.1rem;
 }
 
 .resume{
