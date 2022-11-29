@@ -99,7 +99,8 @@ body {
 
 .devIco{
 /* font-size: larger; */
-width: 50px;
+width: 80px;
+margin: 40px 7px;
 }
 
 .progress{
@@ -305,6 +306,10 @@ width: 50px;
     transition: 1s;
 }
 
+.footer{
+    padding-top: 7px;
+    font-size: 15px;
+}
 
 @media only screen and (max-width: 1286px) {
     .card {
