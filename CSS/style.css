@@ -31,13 +31,19 @@ body {
 
 .user-box h1{
     color: #fff;
-    font-weight: bold;
+    font-weight: bolder;
     margin: 10px;
+    font-size: 45px;
 }
 
 .user-box p{
+    margin-top: 7px;
     color: #fff;
+    font-weight:bolder;
+    font-size: 1.4rem;
+    /* letter-spacing: 1px; */
 }
+
 
 .scroll-btn{
     bottom: 30px;
