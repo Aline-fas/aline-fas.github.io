@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
         speed: 200,
         // strings: ["javascript" , "PHP", "SQL"],
         loop: true,
-    }).type('Full-Stack em formação ',{delay:300}).delete(23)
+    }).type('Full-Stack em formação ',{delay:200}).delete(23)
     .type('JavaScript ',{delay:500}).delete(11)
     .type('PHP ',{delay:500})
     .go()
