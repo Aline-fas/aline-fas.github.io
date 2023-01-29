@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+body{
+    width: 920px;
+    height: auto;
+    margin: auto;
+}
+
+#logo{
+    width: 188px;
+    height: 69px;
+    float: left;
+}
+
+#menu{
+    width: auto;
+    height: auto;
+    margin-top: 25px;
+    float: right;
+}
+
+#menu a{
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 25px;
+    font-family: tahoma;
+    font-size: 14px;
+}
+
+#menu a:hover{
+    background-color: #333;
+    color:#FFF;
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 5px; /* espaçamento entre letras*/
+    word-spacing: 10px; /* espaçamento entre palavras*/
+    background-color: #333;
+    color: #FFF;
+    padding: 10px;
+}
+
+.marcaTexto{
+    background-color:  #FF0;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.imgLeft{
+    float: left;
+    margin-right: 10px;
+}
+
+.imgRight {
+    float: right;
+    margin-left: 10px;
+}
+
+img{
+    filter: grayscale(100%);
+}
+
+
+p{
+    line-height: 20px;
+}
+
+footer{
+    width: 920px;
+    height: 40px;
+    background-color: #999;
+    margin-top: 10px;
+}
+input{
+    width: 250px;
+    background-color: #ccc;
+    color: #FFF;
+    border:none;
+}
+
+textarea {
+    border: none;
+    background-color: #ccc;
+    color: white;
+    border: none;
+}
+
+input[type=submit] {
+    width: 90px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+}
+
+

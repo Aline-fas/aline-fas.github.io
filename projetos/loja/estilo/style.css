@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-de-fundo: rgb(255, 145, 0);
+    --cor-secundaria: rgb(255, 255, 255);
+    --cor-azul: rgb(0, 0, 255);
+    --cor-preto: rgb(0, 0, 0);
+    --cor-laranja-claro: rgba(255, 145, 0, 0.05);
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--cor-laranja-claro);
+    /* background-color: var(--cor-de-fundo); */
+}
+
+header {
+    background-color: var(--cor-de-fundo);
+    position: relative;
+    height: 150px;
+}
+
+header section {
+    width: 1024px;
+    margin: auto;
+    position: relative;
+}
+
+.fotoProduto{
+    height: 200px;
+    margin: auto;
+    object-fit: cover;
+}
+
+
+header img {
+    width: 80px;
+}
+
+#logo {
+    position: absolute;
+    left: 0;
+    top: 10px;
+    height: 90px;
+}
+
+/* header input[type=text] { */
+#buscar{
+    /* ALTERADO */
+    width: 500px;
+    height: 40px;
+    font-size: 25px;
+    line-height: 38px;
+    position: absolute;
+    left: 250px;
+    top: 10px;
+    /* text-indent: 5px; */
+    padding: 0 5px;
+}
+
+#textoEnviamos {
+    position: absolute;
+    left: 275px;
+    top: 70px;
+    font-size: 20px;
+    text-align: center;
+    color: var(--cor-secundaria);
+}
+
+#carrinho {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    background-color: none;
+    border: none;
+}
+
+.cliente {
+    position: absolute;
+    right: 5px;
+    top: 0;
+    background-color: none;
+    border: none;
+    padding: 5px;
+}
+
+header nav {
+    position: absolute;
+    bottom: 0;
+    /* left: 0; */
+    background-color: var(--cor-azul);
+    height: 45px;
+    /* Incluindo */
+    width: 100%;
+}
+
+
+header nav ul {
+    height: 40px;
+    /* Incluindo */
+    width: 1024px;
+    margin: auto;
+}
+
+
+header nav ul li {
+    display: inline-block;
+}
+
+#banner {
+    width: 1024px;
+    height: 300px;
+    float: left;
+    border-bottom: 1px solid #BBA6E7;
+
+}
+
+div.orbit-wrapper {
+    margin: auto;
+}
+
+.orbit-bullets {
+    margin: 5px 0;
+    height: 12px;
+    top: 270px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+main {
+    background-color: var(--cor-secundaria);
+    text-align: justify;
+    width: 1024px;
+    min-height: 100vh;
+    margin: auto;
+    /* margin: 20px; */
+    padding: 20px;
+    position: relative;
+}
+
+blockquote {
+    padding: 10px;
+    float: left;
+    width: 30%;
+    background-color: rgb(206, 202, 202);
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: black; */
+    border: 10px solid #7a7a7a;
+    display: block;
+    margin: 0 5%;
+}
+
+cite {
+    display: block;
+    /* margin: 15px;  Todos os lados iguais*/
+    /* margin: 15px 20px; Primeiro valor serve para o TOPO e BOTTOM o segundo valor é para  ESQUERDA e DIREITA*/
+    margin: 15px 5px 3px 0;
+    line-height: 20px;
+    text-align: right;
+}
+
+.limpaFloat {
+    clear: both;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    text-indent: 50px;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+figure {
+    width: 19.4%;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    cursor: pointer;
+}
+
+aside,
+figure {
+    float: right;
+    background-color: #7a7a7a;
+    color: var(--cor-secundaria);
+    border: 5px solid var(--cor-preto);
+}
+
+aside {
+    width: 18%;
+    margin: auto;
+    position: relative;
+    /* top: -34px; */
+    /* bottom: 190px; */
+    bottom: 34px;
+    right: 20px;
+    clear: right;
+    /* background-color: var(--cor-secundaria); */
+}
+
+li {
+    background-color: var(--cor-azul);
+    /* list-style-type: none;
+    display: block;
+    padding: 0;
+    height: 40px;
+    width: 40px; 
+    */
+}
+
+nav ul li a {
+    display: block;
+    color: var(--cor-secundaria);
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+}
+
+nav li a:hover {
+    display: block;
+    background-color: var(--cor-de-fundo);
+    text-transform: bold;
+    transition: .6s;
+    border-top: 1px solid rgba(21, 0, 255, 1);
+}
+
+footer {
+    height: 50px;
+    line-height: 50px;
+    background-color: black;
+    color: blanchedalmond;
+    clear: both;
+    /*left right both*/
+}
+
+#rodaPe {
+    width: 1024px;
+    margin: auto;
+}
+
+.divisaoColuna {
+    float: left;
+    width: 40%;
+}
+
+.reducaoDoTexto {
+    width: 75%;
+}
+
+/* main h1{ */
+/*
+ # = id 
+ . = class
+*/
+.diferenciado {
+    font-family: Roboto, sans-serif;
+    font-size: 60px;
+    margin: 0;
+    text-transform: uppercase;
+    /* Isto é um comentário em CSS*/
+    color: rgb(0, 0, 255);
+    /* color: rgb(0, 0, 255, 0.5); */
+    /* color: #0000FF; hexadecimal */
+}
+
+/* img {
+    width: 100%
+} */
+
+.vermelho {
+    color: red;
+}
+
+#nomeCliente h1 {
+    margin: 0;
+}
+
+#nomeCliente {
+    display: block;
+    font-size: 18px;
+    text-align: center;
+}
+
+aside,
+nav,
+ul {
+    background-color: var(--cor-azul);
+    /* todos os atributos de lista */
+    /* só o atributo tipo */
+    /* list-style-type: none; */
+    padding: 0;
+}
+
+/* .icones-sociais ul {
+    padding: 10px, 0;
+} */
+
+.icones-sociais li {
+    background-color: var(--cor-azul);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.icones-sociais a {
+    /* background-image: url(../img/github.png); */
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    color: white;
+    text-indent: -9999px;
+    /* font-size: 0 !important; */
+    /* color: rgba(0,0,0,0); */
+}
+
+.github {
+    background-image: url(../img/github.png);
+}
+
+.linkedin {
+    background-image: url(../img/linkedin.png);
+}
+
+.twitter {
+    background-image: url(../img/twitter.png)
+}

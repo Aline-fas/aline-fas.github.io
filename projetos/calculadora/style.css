@@ -42,6 +42,9 @@ input[type="radio"] {
 	width: 30px;
 	height: 25px;
 }
+#num-one, #num-two{
+	padding-left: 20px;
+}
 b {
 	font-size: 40px;
 }

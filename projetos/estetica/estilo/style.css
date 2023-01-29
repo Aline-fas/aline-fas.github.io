@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+}
+
+:root {
+    --cor-do-texto-secundario: #666;
+    --cor-do-texto-principal: #402c71;
+    --cor-do-texto-barra: #422d71; 
+    --cor-do-link-menu: #fff;
+
+
+
+}
+body {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.orbit-bullets {
+    margin: 16px 0;
+    /* margin-bottom: 16px; tambem funciona */
+}
+
+main {
+    width: 960px;
+    height: auto;
+    margin: auto;
+}
+header {
+    width: 960px;
+    height: 35px;
+    background-color: var(--cor-do-texto-barra);
+    float: left;
+}
+
+#logo {
+    width: 144px;
+    height: 182px;
+    display: inline;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+}
+nav {
+    float: right;
+    line-height: 35px;
+    position: relative;
+    z-index: 20;
+}
+
+nav a {
+    color: var(--cor-do-link-menu);
+    font-size: 14px;
+    text-decoration: none;
+    margin-right: 50px;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+
+h2{
+    color: var(--cor-do-texto-principal);
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+p {
+    color: var(--cor-do-texto-secundario);
+    font-size: 14px;
+    line-height: 120%;
+    margin-top: 10px;
+    text-align: justify;
+}
+img {
+    border: none;
+}
+
+#imgLeft {
+    float: left;
+    margin: 0;
+}
+ .titulo {
+    color: var(--cor-do-texto-principal);
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold
+ }
+
+ #tudo {
+     width: 100%;
+     height: 100%;
+     background-color: #000;
+     position: fixed;
+     top: 0;
+     left: 0;
+     z-index: 1001;
+     opacity: 0.7;
+     display: none;
+ }
+
+#popup{
+    width: 400px;
+    height: 300px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -200px;
+    margin-top: -150px;
+    background-color: #fff;
+    z-index: 1001;
+    display: none;
+}
+
+#banner {
+    width: 960px;
+    height: 300px;
+    float: left;
+    border-bottom: 1px solid #bba6e7;
+}
+
+#caixa {
+    display: none;
+    width: 90px;
+    height: 100px;
+    padding-left: 5px;
+    background-color: var(--cor-do-texto-barra);
+    position: absolute;
+    top: 35px;
+    left: 90px;
+    /* z-index: 30; */
+  
+}
+
+caixa a {
+    display: block;
+    margin: 0;
+    
+}
+#conteudo {
+    width: 960px;
+    min-height: 100px;
+    float: left;
+    margin-top: 20px;
+}
+ #box1, #box2, #box3 {
+    width: 280px;
+    min-height: 100px;
+    float: left;
+     
+}
+
+ #box2 {
+    margin-left: 60px;
+    margin-right: 60px;
+ }
+
+ footer {
+    width: 960px;
+    height: 35px;
+    float: left;
+    color: var(--cor-do-texto-principal);
+    background-color: #e6def5;
+    font-size: 12px;
+    margin-top: 20px;
+    line-height: 35px; /*alinha os textos cima baixo  */
+    text-align: center;
+     /* clear:both; clear anula o float, ou seja, impedem que os elementos flutuem */
+ }
