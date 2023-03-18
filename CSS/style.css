@@ -203,6 +203,10 @@ margin: 40px 7px;
     margin-bottom: 15px;
 }
 
+#descricao{
+    font: 1.4rem italic;
+   
+}
 .meusProjetos{
     padding-top: 25px;
 }
